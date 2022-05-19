@@ -7,13 +7,11 @@ Sampling Protein Ensembles and Conformational Heterogeneity with Alphafold2
 SPEACH_AF_scan (jupyter notebook): will generate modified MSA files (alanine mutagenesis) based on an initial MSA and PDB
 
 batch.py: modified batch.py (original from Colabfold branched on 12/2022). <br>
-  use in either two ways 
-1. install ColabFold from https://github.com/sokrypton/ColabFold as described and replace the installed batch.py <br>
-   (located in anaconda3/lib/python3.X/site-packages/colabfold or miniconda3/lib/python3.X/site-packages/colabfold) <br>
-2. install a branched ColabFold (branched on 12/2022) which has the modified file
-```
-pip install "colabfold[alphafold] @ git+https://github.com/RSvan/ColabFold"
-```
+  install ColabFold from https://github.com/sokrypton/ColabFold as described and replace the installed batch.py <br>
+  (located in anaconda3/lib/python3.X/site-packages/colabfold or miniconda3/lib/python3.X/site-packages/colabfold) <br>
+
+## Data Directory
+Data files associated with SPEACH_AF paper
 
 ## References
 Preprint of similar methodology
